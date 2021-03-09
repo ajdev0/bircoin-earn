@@ -14,7 +14,6 @@ class _FadeAnimationState extends State<FadeAnimation>
   Animation _animation;
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _controller =
         AnimationController(duration: Duration(seconds: 1), vsync: this);

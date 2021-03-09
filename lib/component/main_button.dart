@@ -2,9 +2,14 @@ import 'package:bitcoin_earn/constants.dart';
 import 'package:flutter/material.dart';
 
 class MainButton extends StatelessWidget {
-  MainButton({@required this.label, @required this.onPress});
+  MainButton({
+    @required this.label,
+    @required this.onPress,
+    Key key,
+  }) : super(key: key);
   final String label;
   final Function onPress;
+
   @override
   Widget build(BuildContext context) {
     return Material(

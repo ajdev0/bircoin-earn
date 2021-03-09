@@ -1,5 +1,5 @@
 import 'package:bitcoin_earn/component/main_button.dart';
-import 'package:bitcoin_earn/screens/register_screen.dart';
+import 'package:bitcoin_earn/screens/login_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -42,7 +42,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child: MainButton(
                 label: 'Get Started',
                 onPress: () {
-                  Navigator.pushNamed(context, RegisterScreen.id);
+                  Navigator.pushNamed(context, ScreenLogin.id);
                 },
               ),
             ),
